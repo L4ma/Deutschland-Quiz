@@ -4,7 +4,7 @@ read -p "Wie lautet das Kennzeichenkuerzel von Berlin? " Kennzeichen
 
 if [ $Kennzeichen == B ]
 	then
-	bash Gewonnen.sh
+	bash Mauer.sh
 	else
 	echo "GAME OVER"
 fi
